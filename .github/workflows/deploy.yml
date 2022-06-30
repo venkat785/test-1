@@ -11,7 +11,7 @@ on:
         required: false
 
 jobs:
-  calling-another-github-action:
+  testing1:
     runs-on: ubuntu-latest
     steps:
       - name: print test1
