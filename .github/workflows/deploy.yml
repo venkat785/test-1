@@ -2,6 +2,7 @@ name: deploy1
 
 on:
   workflow_dispatch:
+  push:
     inputs:
       name:
         description: name of the runner
