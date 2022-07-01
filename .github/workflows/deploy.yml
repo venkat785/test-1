@@ -6,9 +6,11 @@ on:
       name:
         description: name of the runner
         required: true
+        default: "venkat"
       name2:
         description: optional
         required: false
+        default: "na"
 
 jobs:
   testing1:
